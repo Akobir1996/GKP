@@ -141,18 +141,24 @@ background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, F
     clear: both;
 }
 .footer{
-    padding: 20px 0;
+    padding: 5px 0;
     /* text-align: center; */
     background-color: #162e3d;
     color: rgba(238, 122, 76, 0.88);
-    margin-top: 20px;
-    display: inline-block;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
+    height: 10%;
+}
+.footer img{
+    width: 20%;
+    height: 20%;
 }
 .footer .icon{
     width: 30%;
-    height: 30px;
-    float: left;
+    height: 10%;
+    
 }
 .footer .icon img{
     width: 20%;
@@ -173,7 +179,7 @@ background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, F
     opacity: .9;
 }
 .footer .by{
-    float: left;
+    height: 10%;
     width: 30%;
 }
 .footer .by p{
@@ -184,8 +190,8 @@ background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, F
 }
 .footer .phon{
     width: 30%;
-    height: 30px;
-    float: right;
+    height: 10%;
+    
 }
 .footer .phon img{
     width: 20%;
